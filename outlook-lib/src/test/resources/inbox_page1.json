@@ -1,0 +1,25 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('me')/mailFolders('inbox')/messages(id,subject,from,receivedDateTime,bodyPreview,isRead)",
+  "value": [
+    {
+      "@odata.etag": "W/\"CQAAABYAAAA1\"",
+      "id": "AAMkAGI2THVSAAA=",
+      "subject": "Quarterly planning",
+      "bodyPreview": "Agenda attached for Thursday.",
+      "isRead": false,
+      "receivedDateTime": "2026-10-20T14:05:11Z",
+      "from": { "emailAddress": { "name": "Alex Wilber", "address": "alexw@contoso.com" } }
+    },
+    {
+      "@odata.etag": "W/\"CQAAABYAAAA2\"",
+      "id": "AAMkAGI2THVTAAA=",
+      "subject": null,
+      "bodyPreview": "",
+      "isRead": true,
+      "receivedDateTime": "2026-10-19T08:00:00Z",
+      "from": { "emailAddress": { "address": "noreply@contoso.com" } },
+      "unexpectedField": 42
+    }
+  ],
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messages?$select=id,subject,from,receivedDateTime,bodyPreview,isRead&$orderby=receivedDateTime+desc&$top=2&$skip=2"
+}

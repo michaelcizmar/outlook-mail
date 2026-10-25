@@ -1,0 +1,14 @@
+{
+  "id": "AAMkAGI2THVSAAA=",
+  "subject": "Quarterly planning",
+  "receivedDateTime": "2026-10-20T14:05:11Z",
+  "from": { "emailAddress": { "name": "Alex Wilber", "address": "alexw@contoso.com" } },
+  "toRecipients": [
+    { "emailAddress": { "name": "Adele Vance", "address": "adelev@contoso.com" } },
+    { "emailAddress": { "address": "team@contoso.com" } }
+  ],
+  "body": {
+    "contentType": "html",
+    "content": "<html><head><style>p{color:red}</style></head><body><p>Hi&nbsp;team,</p><p>Agenda:</p><ul><li>Budget &amp; hiring</li><li>Roadmap</li></ul><script>alert(1)</script><p>Thanks<br>Alex</p></body></html>"
+  }
+}

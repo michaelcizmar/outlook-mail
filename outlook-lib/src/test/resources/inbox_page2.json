@@ -1,0 +1,12 @@
+{
+  "value": [
+    {
+      "id": "AAMkAGI2THVUAAA=",
+      "subject": "Last page",
+      "bodyPreview": "No more after this.",
+      "isRead": true,
+      "receivedDateTime": "2026-10-18T09:30:00Z",
+      "from": { "emailAddress": { "name": "Megan Bowen", "address": "meganb@contoso.com" } }
+    }
+  ]
+}
